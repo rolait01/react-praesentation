@@ -1,7 +1,7 @@
 ﻿// src/layout/TopicLayout.jsx
 import React from "react";
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
-import topics from "../data/topics";
+import topics from "../data/Topics.js";
 import SideNav from "../components/SideNav";
 import "./TopicLayout.css";
 
