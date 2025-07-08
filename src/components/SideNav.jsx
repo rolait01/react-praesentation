@@ -1,7 +1,7 @@
 ﻿// src/components/SideNav.jsx
 import React from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import topics from "../data/topics";
+import topics from "../data/Topics.js";
 import NavCard from "./NavCard";
 import { ArrowLeft } from "lucide-react";
 import "./SideNav.css";
