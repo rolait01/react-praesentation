@@ -80,7 +80,6 @@ export default function WasIstReact() {
                     <ul>
                         <li>Diese Präsentation ist selbst mit React gebaut.</li>
                         <li>Wir nutzen Komponenten, State und Routing – alles live demonstriert.</li>
-                        <li>Los geht’s mit dem nächsten Thema: Virtual DOM.</li>
                     </ul>
                 </>
             ),

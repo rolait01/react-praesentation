@@ -59,30 +59,6 @@ export default function ReactRouter() {
                 </>
             ),
         },
-        {
-            title: "Beispiel für Routing-Code",
-            body: (
-                <>
-                    <pre style={{
-                        fontSize: "0.85rem",
-                        textAlign: "left",
-                        background: "#f5f5f5",
-                        padding: "1rem",
-                        borderRadius: "0.5rem",
-                        overflowX: "auto",
-                        lineHeight: "1.4"
-                    }}>
-{`<Routes>
-  <Route path="/" element={<Home />} />
-  <Route path="/" element={<TopicLayout />}>
-    <Route path="/hooks" element={<HooksPage />} />
-    <Route path="/router" element={<ReactRouter />} />
-  </Route>
-</Routes>`}
-                    </pre>
-                </>
-            ),
-        },
     ];
 
     return (

@@ -16,8 +16,21 @@ export default function ReactLifecycle() {
                     <ul>
                         <li>Props (Properties) übergeben Daten von einer Komponente zur anderen.</li>
                         <li>Sie sind readonly – also nicht veränderbar durch die empfangende Komponente.</li>
-                        <li>Beispiel: <code>{`<User name="Max" />`}</code></li>
+                        <li>Beispiel:</li>
                     </ul>
+                    <div className="image-row">
+                        <div className="image-container">
+                            <img
+                                src="/images/Parent.png"
+                                alt="PropsDrilling"
+                                onClick={(e) => {
+                                    e.stopPropagation();
+                                    openImage("/images/Parent.png");
+                                }}
+                                style={{ cursor: "zoom-in" }}
+                            />
+                        </div>
+                    </div>
                 </>
             ),
         },
@@ -40,8 +53,32 @@ export default function ReactLifecycle() {
                     <ul>
                         <li>Context ermöglicht globale Daten – z. B. Theme, Sprache oder Login-Status.</li>
                         <li>Kein Props-Drilling nötig: Komponenten greifen direkt auf die Daten zu.</li>
-                        <li>Besteht aus: <code>createContext</code>, <code>Provider</code>, <code>useContext</code></li>
+                        <li>Beispiel:</li>
                     </ul>
+                    <div className="image-row">
+                        <div className="image-container">
+                            <img
+                                src="/images/createContext.png"
+                                alt="Initialisierung einer Komponente"
+                                onClick={(e) => {
+                                    e.stopPropagation();
+                                    openImage("/images/createContext.png");
+                                }}
+                                style={{ cursor: "zoom-in" }}
+                            />
+                        </div>
+                        <div className="image-container">
+                            <img
+                                src="/images/useContext.png"
+                                alt="Definition einer Komponente"
+                                onClick={(e) => {
+                                    e.stopPropagation();
+                                    openImage("/images/useContext.png");
+                                }}
+                                style={{ cursor: "zoom-in" }}
+                            />
+                        </div>
+                    </div>
                 </>
             ),
         },

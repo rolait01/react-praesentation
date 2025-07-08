@@ -64,7 +64,7 @@ export default function Component() {
             body: (
                 <>
                     <ul>
-                        <li>Diese Seite ist selbst eine React-Komponente: <code>Component.jsx</code>.</li>
+                        <li>Diese Seite ist selbstverständlich auch in Komponenten aufgeteilt.</li>
                         <li>Sie nutzt u. a. eigene Komponenten wie <code>CardSlider</code>, <code>Lightbox</code> und <code>TopicCard</code>.</li>
                         <li>Im Projekt sind alle Bestandteile modular in <code>/components</code> organisiert.</li>
                         <li>So bleibt der Code übersichtlich, testbar und gut wartbar.</li>

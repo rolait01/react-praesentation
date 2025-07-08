@@ -40,7 +40,7 @@ export default function State() {
                 <>
                     <ul>
                         <li>Diese Präsentationsseite nutzt <code>useState</code>, um die aktive Karte zu steuern.</li>
-                        <li>Auch das Öffnen und Schließen der Lightbox funktioniert über State.</li>
+                        <li>Auch das Öffnen und Schließen der Lightbox und die Stoppuhr funktionieren über State.</li>
                         <li>Jede React-Seite verwendet dabei ihren eigenen lokalen Zustand – getrennt, übersichtlich, unabhängig.</li>
                     </ul>
                 </>
