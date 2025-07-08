@@ -1,7 +1,7 @@
 // src/App.jsx
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import topics from "./data/topics";
+import topics from "./data/Topics.js";
 import TopicCard from "./components/TopicCard";
 import logo from "./assets/hs_esslingen_logo.svg";
 import "./App.css";
